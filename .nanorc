@@ -1,0 +1,12 @@
+set autoindent
+set backup
+set backupdir /home/synthverity/workspace/nanoBackups
+set casesensitive
+set const
+set historylog
+set morespace
+set nohelp
+set nowrap
+set smarthome
+set smooth
+set tabsize 4
