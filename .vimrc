@@ -51,6 +51,11 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+" Set vim to nowrap, and set options to prevent wrapping
+set nowrap
+set textwidth=0
+set wrapmargin=0
+
 " Personal status line settings, mostly testing for now
 " Taken from an example on the internet
 " Will personalize later
