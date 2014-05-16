@@ -51,3 +51,14 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+" Personal status line settings, mostly testing for now
+" Taken from an example on the internet
+" Will personalize later
+set laststatus=2
+set statusline=
+set statusline+=%<				" Cut at the start
+set statusline+=%2*[%n%H%M%R%W]%*		" Flags and buf num
+set statusline+=%-40f				" Path
+set statusline+=%=%1*%y%*%*			" File type
+set statusline+=%10((%l,%c)%)			" Line and Column
+set statusline+=%P				" Percentage
