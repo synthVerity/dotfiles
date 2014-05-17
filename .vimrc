@@ -56,6 +56,10 @@ set nowrap
 set textwidth=0
 set wrapmargin=0
 
+" Set the indent width to 4 for personal preference
+set shiftwidth=4
+set tabstop=4
+
 " Personal status line settings, mostly testing for now
 " Taken from an example on the internet
 " Will personalize later
