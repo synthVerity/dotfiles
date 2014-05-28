@@ -21,7 +21,7 @@ syntax on
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
-"set background=dark
+set background=dark
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
@@ -65,9 +65,16 @@ set tabstop=4
 " Will personalize later
 set laststatus=2
 set statusline=
-set statusline+=%<				" Cut at the start
-set statusline+=%2*[%n%H%M%R%W]%*		" Flags and buf num
+set statusline+=%<					" Cut at the start
+set statusline+=%2*[%n%H%M%R%W]%*	" Flags and buf num
 set statusline+=%-40f				" Path
 set statusline+=%=%1*%y%*%*			" File type
-set statusline+=%10((%l,%c)%)			" Line and Column
-set statusline+=%P				" Percentage
+set statusline+=%10((%l,%c)%)		" Line and Column
+set statusline+=%P					" Percentage
+
+" Set the comments to not auto insert comments on new line
+set formatoptions-=cro
+
+" Mapping F7 and F8 keys to switch between tabs
+map <F7> :tabp<CR>
+map <F8> :tabn<CR>
