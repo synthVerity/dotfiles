@@ -1,0 +1,7 @@
+# Ignore list for all of the dotfiles
+
+# Cache for the newsbeuter rss
+.newsbeuter/cache.db
+
+# Base file inside vim
+.vim/.netrwhist

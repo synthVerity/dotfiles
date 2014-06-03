@@ -1,3 +1,4 @@
+" Set the custom colors for vim to use
 highlight cComment ctermfg=darkcyan guifg=darkcyan
 highlight cConstant ctermfg=darkred guifg=darkred
 highlight cStatement ctermfg=darkmagenta guifg=darkmagenta
