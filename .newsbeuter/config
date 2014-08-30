@@ -5,4 +5,5 @@ history-limit 50
 max-items 100
 reload-time 30
 show-read-feeds no
-
+color listnormal_unread green default bold
+color listfocus_unread default default bold
