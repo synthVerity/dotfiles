@@ -78,3 +78,6 @@ set formatoptions-=cro
 " Mapping F7 and F8 keys to switch between tabs
 map <F7> :tabp<CR>
 map <F8> :tabn<CR>
+
+" Setting the default color scheme
+colorscheme ir_black
