@@ -2,6 +2,7 @@
 
 # Cache for the newsbeuter rss
 .newsbeuter/cache.db
+.newsbeuter/cache.db.lock
 
 # Base file inside vim
 .vim/.netrwhist
