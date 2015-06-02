@@ -81,3 +81,6 @@ map <F8> :tabn<CR>
 
 " Setting the default color scheme
 colorscheme ir_black
+
+" Show the color column at start up
+set colorcolumn=81
