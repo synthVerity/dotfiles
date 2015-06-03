@@ -1,3 +1,4 @@
+alias ls='ls --color=auto'
 alias ll='ls -laF'
 alias lock='vlock -a'
 alias gcc='gcc -Wall -Werror -pedantic -std=gnu99'
