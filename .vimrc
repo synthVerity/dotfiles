@@ -84,3 +84,6 @@ colorscheme ir_black
 
 " Show the color column at start up
 set colorcolumn=81
+
+" Set text wrapping to occur at 80 characters
+set tw=80
